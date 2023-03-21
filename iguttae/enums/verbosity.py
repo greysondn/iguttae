@@ -1,9 +1,10 @@
 from enum import Enum
 
-'''
-Represents how verbose something should be
-'''
 class Verbosity(Enum):
+    '''
+    Represents how verbose something should be
+    '''
+
     # TODO: Add silent mode
     SILENT          = 0
     
